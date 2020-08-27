@@ -9,7 +9,7 @@ var treeObj, stoneObj,groundObject, launcherObject;
 var mango1,mango2,mango3,mango4,mango5;
 var world,boy;
 var launchingForce=100;
-var MangosGroup = createGroup();
+//var MangosGroup = createGroup();
 
 function preload(){
 	boy=loadImage("images/boy1.png");
@@ -56,13 +56,13 @@ function draw() {
   image(boy ,100,290,200,300);
 
   //Engine.update(engine)
-  if(stoneObj.index !==null) {
+  /*if(stoneObj.index !==null) {
     for(var i = 0; i<MangosGroup.length; i++){
       if(MangosGroup.get(i).isTouching(stoneObj)){
         MangosGroup.get(i).destroy();
 
       }
-    }
+    }*/
   }
 
   cageObj.display();
