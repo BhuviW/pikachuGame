@@ -62,8 +62,8 @@ function draw() {
         MangosGroup.get(i).destroy();
 
       }
-    }*/
-  }
+    }
+  }*/
 
   cageObj.display();
   stoneObj.display();
