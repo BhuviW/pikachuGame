@@ -12,7 +12,7 @@ class mango{
 		this.image=loadImage("images/shooter1.png")
 		this.body=Bodies.circle(this.x, this.y, this.r, options)
 		World.add(world, this.body);
-	    MangosGroup.add(mango);
+	    //MangosGroup.add(mango);
 	}
 
 	display()
